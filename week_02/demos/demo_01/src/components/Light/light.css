@@ -1,0 +1,12 @@
+.light {
+    background-color: hsla(60, 100%, 50%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    transition: background-color 0.5s;
+}
