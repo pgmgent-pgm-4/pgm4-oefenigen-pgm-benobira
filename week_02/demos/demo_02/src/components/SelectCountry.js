@@ -1,15 +1,16 @@
 import React from 'react'
+import { MenuItem, Select } from '@mui/material';
 
 export default function SelectCountry({ countries, setCountry, country }) {
   const handleChange = (event) => {
     setCountry(event.target.value);
   }
   return (
-    <select value={country} onChange={handleChange}>
+    <Select value={country} onChange={handleChange}>
       {countries.map((country, index) => 
-        <option key={`contry-${index}`} value={country.value}>
+        <MenuItem key={`contry-${index}`} value={country.value}>
           {country.name}
-        </option>)}
-    </select>
+        </MenuItem>)}
+    </Select>
   )
 }

@@ -1,10 +1,14 @@
 import React from 'react'
+import {Card, CardContent} from '@mui/material';
 
 export default function Beer({ beer }) {
   return (
-    <article>
-      <h3>{beer.title} - {beer.alchool}</h3>
-      <p>{beer.description}</p>
-    </article>
+    <Card variant="outlined">
+      <CardContent>
+        <h2>{beer.name}</h2>
+        <p>Description: {beer.description}</p>
+        <p>Alcohol: {beer.alchool}</p>
+      </CardContent>
+    </Card>
   )
 }
