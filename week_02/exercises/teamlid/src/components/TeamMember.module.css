@@ -1,0 +1,36 @@
+.teammember {
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.teammember img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.teammember h2 {
+    color: blueviolet;
+}
+
+.teammember p {
+    color: gray;
+}
+
+.teammember div {
+    text-align: left;
+}
+
+.teamleader {
+    outline: 2px solid gold;
+}
+
+.teamleader h2 {
+    color: gold;
+}
