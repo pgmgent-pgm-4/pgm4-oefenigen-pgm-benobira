@@ -1,0 +1,7 @@
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+}
